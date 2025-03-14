@@ -62,6 +62,7 @@ header {
   margin-bottom: 10px;
   display: flex;
   flex-flow: row wrap;
+  background-image: url("../image/LSPhil_1299x600.jpg");
 }
 
 body > * {
