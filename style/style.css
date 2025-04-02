@@ -63,6 +63,8 @@ header {
   display: flex;
   flex-flow: row wrap;
   background-image: url("../image/LSPhil_1299x600.jpg");
+  background-size: cover;
+  align-items: flex-start;
 }
 
 body > * {
@@ -78,6 +80,8 @@ main, header, nav, article, aside, footer, section {
 h1 {
   flex: 5;
   text-transform: uppercase;
+  color: white;
+  background-color: rgb(0 0 0 / 50%);
 }
 
 header img {
