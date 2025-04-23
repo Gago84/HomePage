@@ -226,3 +226,56 @@ dd,dt{
   flex: none;
   width: 400px;
 }
+/* Apply link styling */
+a {
+  outline-color: transparent;
+}
+
+a:link {
+  color: #6900ff;
+}
+
+/* a:visited {
+  color: #a5c300;
+} */
+
+a:focus {
+  text-decoration: none;
+  background: #bae498;
+}
+
+a:hover {
+  text-decoration: none;
+  background: #cdfeaa;
+}
+
+a:active {
+  background: #6900ff;
+  color: #cdfeaa;
+}
+/* Link style for menu first */
+.menu {
+  display: flex;
+  gap: 0.7%;
+}
+.menu a {
+  flex: 1;
+  text-decoration: none;
+  outline-color: transparent;
+  text-align: center;
+  line-height: 1.5;
+  color: black;
+}
+.menu a:link,
+.menu a:visited,
+.menu a:focus {
+  background: palegoldenrod;
+  color: black;
+}
+.menu a:hover {
+  background: orange;
+}
+.menu a:active {
+  background: darkred;
+  color: white;
+}
