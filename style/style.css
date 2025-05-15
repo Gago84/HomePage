@@ -12,6 +12,7 @@ body {
     color: #333;
     margin: 0 auto;
     font: 1.2em / 1.2 Arial, Helvetica, sans-serif;
+    padding: 1%;
 }
 
 img {
@@ -19,12 +20,16 @@ img {
     display: block;
 }
 
+ul {
+    list-style-type: none;
+}
+
 header {
-    font-size: 150%;
-    padding: 20px 20px;
-    margin: 0 auto;
+    font-size: 130%;
     background-color: #bdb6b6;
 }
+
+
 
 /* Blockquote format */
 blockquote {
