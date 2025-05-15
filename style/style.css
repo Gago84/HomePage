@@ -108,6 +108,11 @@ a[href^="http"]::after {
   background: darkred;
   color: white;
 }
+/* Format for dl dt dd */
+dd {
+    margin-left: 20px;
+    line-height: 1.5;
+}
 /* FORMAT STYLING FOR WEB VERSION */
 @media screen and (min-width: 800px) {
     .menu {
